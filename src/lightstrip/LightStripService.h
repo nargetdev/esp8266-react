@@ -5,6 +5,7 @@
 #include <IRrecv.h>
 #include <IRutils.h>
 #include <FastLED.h>
+#include <SimpleService.h>
 
 #include <lightstrip/ColorMode.h>
 #include <lightstrip/StrobeMode.h>
@@ -14,7 +15,6 @@
 #include <lightstrip/FlashMode.h>
 #include <lightstrip/IRCodes.h>
 #include <lightstrip/Strip.h>
-#include <lightstrip/SimpleService.h>
 
 #define RECV_PIN 13
 #define R_PIN 14
