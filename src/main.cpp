@@ -10,6 +10,7 @@
 #include <NTPStatus.h>
 #include <OTASettingsService.h>
 #include <APStatus.h>
+#include <ForceARP.h>
 
 #include <lightstrip/LightStripService.h>
 
@@ -79,4 +80,6 @@ void loop() {
 
   // service the light strip
   lightStripService.loop();
+
+  forceARPLoop();
 }
