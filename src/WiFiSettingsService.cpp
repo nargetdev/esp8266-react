@@ -68,6 +68,7 @@ void WiFiSettingsService::reconfigureWiFiConnection() {
     }
 
     // connect to the network
+    WiFi.setSleepMode(WIFI_NONE_SLEEP);
     WiFi.hostname(_hostname);
     WiFi.begin(_ssid.c_str(), _password.c_str());
 }
