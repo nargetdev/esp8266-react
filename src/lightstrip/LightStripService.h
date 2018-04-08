@@ -23,7 +23,7 @@
 
 #define REPEAT_TIMEOUT_DURATION 120
 
-#define LIGHT_STRIP_SETTINGS_SERVICE_PATH "/lightStrip"
+#define LIGHT_STRIP_SETTINGS_SERVICE_PATH "/rest/lightStrip"
 
 class LightStripService : public SimpleService {
 
